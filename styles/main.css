@@ -1,0 +1,25 @@
+.dotted-border {
+	border: 2px dotted black;
+}
+
+.form-control {
+	width: 200px;
+}
+
+.dino-card {
+	margin: 1%;
+	height: 300px;
+	text-align: center;
+}
+
+.dino-card img {
+	max-width: 100px;
+}
+
+#dinosaurs > .dino-card:nth-of-type(2n + 1) {
+	background-color: lightblue;
+}
+
+#dinosaurs > .dino-card:nth-of-type(2n) {
+	background-color: goldenrod;
+}

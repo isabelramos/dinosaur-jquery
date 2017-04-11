@@ -4,11 +4,19 @@
 	<head>
 	  <title>dinosaur JQUERY</title>
 	  <link rel="stylesheet" type="text/css" href="./lib/bower_components/bootstrap/dist/css/bootstrap.css">
+	  <link rel="stylesheet" type="text/css" href="styles/main.css">
 	</head>
 
 	<body>
 
-		<h1>DINO-MITE!</h1>
+		<nav class="navbar navbar-light bg-faded justify-content-between">
+  			<h1>DINO-MITE!</h1>
+  				<div class="form-inline">
+    				<input id="text-input" class="form-control mr-sm-2" type="text" placeholder="">
+  				</div>
+		</nav>
+
+		<div class="container" id="dinosaurs"></div>
 
 	<script type="text/javascript" src="./lib/bower_components/jquery/dist/jquery.js"></script>
 	<script type="text/javascript" src="./lib/bower_components/bootstrap/dist/js/bootstrap.js"></script>
